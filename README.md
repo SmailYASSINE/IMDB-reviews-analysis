@@ -3,7 +3,7 @@
 Overview
 This project focuses on sentiment analysis of IMDb movie reviews, employing a diverse set of machine learning models. It includes data preprocessing, model training, deployment as REST APIs using FastAPI and Flask, and containerization with Docker. The project emphasizes best practices in modern machine learning and web development.
 
-Project Structure
+# Project Structure
 app/
 fastApp/
 Contains the FastAPI application code.
@@ -12,9 +12,9 @@ Contains the Flask application code.
 notebook/
 Contains the most important processing technics for training model
 
-Usage
+# Usage
 
-Prerequisites
+## Prerequisites
 Docker installed
 Python 3.7+
 Running the Project
@@ -42,5 +42,5 @@ Flask:
 
 Base URL: http://localhost:5000
 Endpoint for consuming the FastAPI predictions: /consume
-Customization
+# Customization
 Feel free to customize the project by modifying the machine learning models, dataset, or application code. Explore the docker-compose.yml file, Dockerfiles, and application configurations for further adjustments.
