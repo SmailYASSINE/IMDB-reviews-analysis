@@ -20,13 +20,12 @@ Python 3.7+
 Running the Project
 Clone the repository:
 
-bash
 ```
 git clone https://github.com/your-username/sentiment-analysis-project.git
 cd sentiment-analysis-project
-Build and run the Docker containers:
+
 ```
-bash
+### Build and run the Docker containers:
 ```
 docker-compose up --build
 ```
@@ -34,7 +33,7 @@ This will start both the FastAPI and Flask applications in parallel.
 
 Access the FastAPI application at http://localhost:8000 and the Flask application at http://localhost:5000.
 
-API Endpoints
+### API Endpoints
 FastAPI:
 
 Base URL: http://localhost:8000
